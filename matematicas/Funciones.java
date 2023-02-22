@@ -213,12 +213,12 @@ public class Funciones {
     } 
 
     /*************************************************
-     * @param a introduce un array                   *
-     * @param numero introduce la posicion           *
-     * @return devuelve true si está en el array     *
+     * @param x introduce el primer número           *
+     * @param x1 introduce el segund                 *
+     * @return devuelve el número modificado         *
      *************************************************/
     public static boolean seRepiteNumero(Array[] a, int numero){
- 	for(int i = 0; i < a.length; i++){
+ 	for(int i = 0; i <= a.length; i++){
 	   if(a[i] == numero){
 	      return true;
    	   }
