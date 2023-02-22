@@ -211,4 +211,18 @@ public class Funciones {
         x = x * (int)potencia(10, digitos(x1)) + x1;
         return x;
     } 
+
+    /*************************************************
+     * @param x introduce el primer número           *
+     * @param x1 introduce el segund                 *
+     * @return devuelve el número modificado         *
+     *************************************************/
+    public static boolean seRepiteNumero(Array[] a, int numero){
+ 	for(int i = 0; i <= a.length; i++){
+	   if(a[i] == numero){
+	      return true;
+   	   }
+        }
+	return false;
+    }
 }
