@@ -226,13 +226,22 @@ public class Funciones {
 	return false;
     }
 
-
     /*************************************************
      * @param numero introduce un numero             *
      * @return el cuadrado del numero                *
      *************************************************/
     public static int dobleNumero(int numero){
         return numero*numero;
+    }
+
+    /*************************************************
+     * @param n1 numero 1                            *
+     * @param n2 numero 2                            *
+     * @return devuelve la suma de ambos             *
+     *************************************************/
+    public static int suma(int n1, int n2){
+ 	int resultado =  n1 + n2;
+	return resultado;
     }
 
 }
