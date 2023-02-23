@@ -225,4 +225,14 @@ public class Funciones {
         }
 	return false;
     }
+
+
+    /*************************************************
+     * @param numero introduce un numero             *
+     * @return el cuadrado del numero                *
+     *************************************************/
+    public static int dobleNumero(int numero){
+        return numero*numero;
+    }
+
 }
