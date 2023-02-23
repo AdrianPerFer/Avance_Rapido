@@ -244,4 +244,14 @@ public class Funciones {
 	return resultado;
     }
 
+    /*************************************************
+     * @param n1 numero 1                            *
+     * @param n2 numero 2                            *
+     * @return devuelve la resta de ambos            *
+     *************************************************/
+    public static int resta(int n1, int n2){
+ 	int resultado =  n1 - n2;
+	return resultado;
+    }
+
 }
