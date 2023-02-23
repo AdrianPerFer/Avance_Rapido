@@ -254,4 +254,11 @@ public class Funciones {
 	return resultado;
     }
 
+    /*************************************************
+     * @param numero introduce un numero             *
+     * @return el cubo del numero                    *
+     *************************************************/
+    public static int cuboNumero(int numero){
+        return numero*numero*numero;
+    }
 }
